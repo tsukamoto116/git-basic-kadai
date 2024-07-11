@@ -15,5 +15,4 @@ PS C:\Users\tk084\git_challenge> git log --oneline
 c892f2f (HEAD -> main) 日本語訳を追加
 42b699a hello_world.txtを追加
 b5838db 日本語訳の追加
-650ba1f ファイルの追加
 PS C:\Users\tk084\git_challenge> 
