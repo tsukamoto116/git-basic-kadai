@@ -1,0 +1,19 @@
+PS C:\Users\tk084> cd git_challenge
+PS C:\Users\tk084\git_challenge> git add hello_world.txt
+PS C:\Users\tk084\git_challenge> git commit -m "hello_world.txtを追加" 
+[main 42b699a] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\tk084\git_challenge> 
+PS C:\Users\tk084\git_challenge> 
+PS C:\Users\tk084\git_challenge> git add hello_world.txt
+PS C:\Users\tk084\git_challenge> git commit -m "日本語訳を追加" 
+[main c892f2f] 日本語訳を追加
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS C:\Users\tk084\git_challenge> 
+PS C:\Users\tk084\git_challenge> 
+PS C:\Users\tk084\git_challenge> git log --oneline
+c892f2f (HEAD -> main) 日本語訳を追加
+42b699a hello_world.txtを追加
+b5838db 日本語訳の追加
+650ba1f ファイルの追加
+PS C:\Users\tk084\git_challenge> 
