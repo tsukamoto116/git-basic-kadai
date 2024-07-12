@@ -1,18 +1,31 @@
+PS C:\Users\tk084> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\tk084
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/07/12     19:07                git_challenge
+
+
+PS C:\Users\tk084> git init
+Reinitialized existing Git repository in C:/Users/tk084/.git/
 PS C:\Users\tk084> cd git_challenge
-PS C:\Users\tk084\git_challenge> git add hello_world.txt
-PS C:\Users\tk084\git_challenge> git commit -m "hello_world.txtを追加" 
-[main 42b699a] hello_world.txtを追加
- 1 file changed, 1 insertion(+), 2 deletions(-)
 PS C:\Users\tk084\git_challenge> 
 PS C:\Users\tk084\git_challenge> 
 PS C:\Users\tk084\git_challenge> git add hello_world.txt
-PS C:\Users\tk084\git_challenge> git commit -m "日本語訳を追加" 
-[main c892f2f] 日本語訳を追加
+PS C:\Users\tk084\git_challenge> git commit -m "hello_world.txtを追加"
+[main ec4330f] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+PS C:\Users\tk084\git_challenge> 
+PS C:\Users\tk084\git_challenge> 
+PS C:\Users\tk084\git_challenge> git add hello_world.txt
+PS C:\Users\tk084\git_challenge> git commit -m "日本語訳を追加"
+[main d2c4fa3] 日本語訳を追加
  1 file changed, 3 insertions(+), 1 deletion(-)
 PS C:\Users\tk084\git_challenge> 
-PS C:\Users\tk084\git_challenge> 
 PS C:\Users\tk084\git_challenge> git log --oneline
-c892f2f (HEAD -> main) 日本語訳を追加
-42b699a hello_world.txtを追加
-b5838db 日本語訳の追加
+d2c4fa3 (HEAD -> main) 日本語訳を追加
+ec4330f hello_world.txtを追加
 PS C:\Users\tk084\git_challenge> 
